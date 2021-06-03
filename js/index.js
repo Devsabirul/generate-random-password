@@ -3,7 +3,7 @@
 function GeneratePassword(){
     const generateNum = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789~`!@#$%^&*()_-+={[}]|\:;'<,>.?/";
         var ShowPass = "";
-    for (let i = 0; i <10; i++) {
+    for (let i = 0; i <8; i++) {
         var generatePass = Math.floor(Math.random() * generateNum.length);
         ShowPass += generateNum.substring(generatePass,generatePass+1); 
     }
