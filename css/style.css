@@ -11,6 +11,8 @@
 }
 input[type='text']{
     color: rgb(255, 0, 0);
+    letter-spacing: 5px;
+    font-size: 20px;
 }
 .box button {
     margin-top: 10px;
