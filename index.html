@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="d-flex justify-content-center">
+                    <div class="box">
+                        <label for="inputPassword2" class="visually-hidden">Generate Random Strong Password</label>
+                        <input type="text" class="form-control" id="generate_password"><i id="copy_text" class="far fa-copy"></i>
+                        <button type="button" class="btn btn-success" onclick="GeneratePassword()">Generate Password</button>
+                        <button type="button" id="reset_btn" class="btn btn-danger">Reset Password</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- script link -->
+    <script src="js/fontawesome.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
